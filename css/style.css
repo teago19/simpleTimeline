@@ -12,3 +12,21 @@
 	font-size: 20px;
 
 }
+
+.post{
+	position: relative;
+}
+
+.postLike{
+	float: left;
+	color: blue;
+	font-size: 13px;
+}
+
+.postDate{
+	float: right;
+	color: gray;
+	font-size: 9px;
+	margin-bottom: auto;
+}
+
