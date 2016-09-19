@@ -25,7 +25,7 @@ $.ajax({
 			var post = document.createElement("div");
 			post.className = 'post col-sm-9';
 			post.innerHTML = '<span class="postContent">' + posts[i].content + '</span>' +
-								'<div> <span class="postDate">' + posts[i].date + '</span> </div>' +
+								'<div> <span class="postDate"> Posted from '+ posts[i].user.location + ' '+ posts[i].date + '</span> </div>' +
 								'</span> <span class="postLike glyphicon glyphicon-thumbs-up">' + posts[i].likes +  '</span> </div> ';
 			document.getElementById("timeline").appendChild(node).appendChild(divRow).appendChild(post);
 
