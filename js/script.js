@@ -1,3 +1,6 @@
+/*
+	//TENTAR ACESSAR O JSON PELO LINK NÃO PEGA POR CAUSA DE CORS
+	
 var xmlhttp = new XMLHttpRequest();
 
 xmlhttp.onreadystatechange = function(){
@@ -7,11 +10,12 @@ xmlhttp.onreadystatechange = function(){
     }
 };
 
-xmlhttp.open("GET","public/timeline.json",true);
+xmlhttp.open("GET","http://vagalumewifi.com.br/timeline.json",true);
 xmlhttp.send();
 
-function createTimeline(resultJson){
-	var posts = resultJson
+function createTimeline(resultJson){*/
+window.onload = function() {
+	var posts = timelineJson;
 
 	for (var i = 0; i < posts.length; i++) {
 		

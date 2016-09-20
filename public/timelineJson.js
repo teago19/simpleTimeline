@@ -1,4 +1,4 @@
-[
+var timelineJson = [
   {
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel odio vitae sapien commodo consectetur. Sed cursus velit nisl, eget posuere.",
     "date": "2014-09-20T01:52:32 +03:00",
@@ -649,4 +649,4 @@
       "friends": 543
     }
   }
-]
+];
