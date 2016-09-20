@@ -33,7 +33,7 @@ function createTimeline(resultJson){
 		post.className = 'post col-sm-9';
 		post.innerHTML = '<span class="postContent">' + posts[i].content + '</span>' +
 						'<div> <span class="postDate"> Posted from '+ posts[i].user.location + ' '+ posts[i].date + '</span> </div>' +
-							'</span> <span class="postLike glyphicon glyphicon-thumbs-up">' + posts[i].likes +  '</span> </div> ';
+							'</span> <span class="postLike">' + posts[i].likes +  '</span> <span class="glyphicon glyphicon-thumbs-up postLikeThumbs"></span></div> ';
 		document.getElementById("timeline").appendChild(node).appendChild(divRow).appendChild(post);
 
 	}
