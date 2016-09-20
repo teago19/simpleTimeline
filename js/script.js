@@ -16,7 +16,7 @@ function createTimeline(resultJson){
 	for (var i = 0; i < posts.length; i++) {
 		
 		var node = document.createElement("div");
-		node.className = "col-sm-8 col-sm-offset-1";
+		node.className = "col-sm-8 col-sm-offset-2";
 
 		var divRow = document.createElement("div");
 		divRow.className = "row panel panel-default";

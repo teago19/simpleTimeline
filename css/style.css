@@ -1,5 +1,8 @@
+
+
 .avatar{
 	text-align: center;
+	padding-top: 10px;
 }
 
 .imgAvatar {
@@ -15,6 +18,7 @@
 .post{
 	position: relative;
 	padding-top: 20px;
+	font-size: 20px;
 }
 
 .postLike{
@@ -30,3 +34,23 @@
 	margin-bottom: auto;
 }
 
+body{
+	background-color: #c0deed;
+}
+
+.panel{
+	border-radius: 10px;
+	background: #ffffff;
+	border: 1px solid transparent;
+	border-color: #a19c9c;
+}
+
+.page-header{
+	text-align: center;
+	border-bottom: 2px solid #0084b4;
+	background-color: #ffffff;
+}
+
+.page-header h1{
+	color: #0084b4;
+}
